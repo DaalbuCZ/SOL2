@@ -1,0 +1,16 @@
+<svg width="153" height="88" viewBox="0 0 153 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <radialGradient id="paint0_radial_3012_35624" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(109 44) rotate(90) scale(12)">
+            <stop stop-color="#E60060" stop-opacity="0.46"/>
+            <stop offset="1" stop-color="#E60060"/>
+        </radialGradient>
+        <linearGradient id="paint1_linear_3012_35624" x1="1.96891e-05" y1="42.7927" x2="101.351" y2="42.7927" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#E50060"/>
+            <stop offset="1" stop-color="#E50060" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+    <circle opacity="0.15" cx="109" cy="44" r="44" fill="#E60060"/>
+    <circle opacity="0.2" cx="109" cy="44" r="16" fill="#E60060"/>
+    <circle cx="109" cy="44" r="12" fill="url(#paint0_radial_3012_35624)"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M33.0492 68L5.48754e-06 43.5L33.0492 19L33.0492 30.1839L109 29L109 59L33.0492 56.8161L33.0492 68Z" fill="url(#paint1_linear_3012_35624)"/>
+</svg>

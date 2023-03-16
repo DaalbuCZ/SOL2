@@ -1,0 +1,670 @@
+{
+  "login": {
+    "no_connection_error": "Chyba spojení. Zkontrolujte připojení.",
+    "unknown_error": "Vyskytla se chyba. Opakujte akci znovu.",
+    "username": "Uživatelské jméno",
+    "password": "Heslo",
+    "remember_me": "Zapamatovat pro příště",
+    "login": "Přihlásit se",
+    "use_different_account": "Použít jiný účet",
+    "restore_password": "Zapomenuté heslo",
+    "automaticSignInError": "Automatické přihlášení se nezdařilo.",
+    "logging_in": "Přihlašuji...",
+    "no_account_box": {
+      "question": "Nemáte ještě uživatelský účet?",
+      "instructions": "Postupujte podle instrukcí na ",
+      "website": "skolaonline.cz"
+    },
+    "server_selector": {
+      "title": "Aktivní server",
+      "hint": "Vyberte...",
+      "info": "Aktivní server je pro většinu aplikace.skolaonline.cz. Pokud máte od administrátora přidělen jiný, zjistíte to na ",
+      "your_account": "svém účtu"
+    },
+    "invalid_credentials": {
+      "title": "Kombinace jména, hesla a serveru není správná!",
+      "question": "Chcete pomoct obnovit ",
+      "forgotten_password": "zapomenuté heslo?"
+    },
+    "delete_profile": {
+      "deleteProfileIconSemanticLabel": "Ikona smazat profil",
+      "title": "Smazat uložený profil?",
+      "info": "Tuto akci nelze vzít zpět. Smazaný profil se vám nadále nebude zobrazovat v seznamu uložených profilů a při dalším přihlášení tak budete muset zadat kompletní přihlašovací údaje.",
+      "accountDeleted": "Profil byl smazán"
+    },
+    "sending": "Odesílá se...",
+    "send": "Odesláno",
+    "refreshLogin": "Vaše přihlášení vypršelo z důvodu dlouhodobé nečinnosti nebo změny hesla. Zadejte prosím heslo znovu.",
+    "changingProfile": "Přepíná se profil...",
+    "useAnotherAccount": "Použít jiný účet"
+  },
+  "finalMarks": {
+    "finalMarks": "Vysvědčení",
+    "marksAverage": "Průměr známek",
+    "excusedHours": "Omluvené absence",
+    "notExcusedHours": "Neomluvené absence",
+    "schoolYear": "Školní rok",
+    "verbalEvaluationAbbvr": "SH",
+    "verbalEvaluationTitle": "Slovní hodnocení - {}",
+    "semesterAbbr": "{}.pol",
+    "overallVerbalEvaluation": "Celkové slovní hodnocení"
+  },
+  "individualMarks": {
+    "module_name": "Průběžné hodnocení",
+    "noMarks": "V {}. pololetí žák nemá žádné známky.",
+    "noMarksWithSubject": "V {}. pololetí nemá žák pro daný předmět žádné známky.",
+    "detail": {
+      "markDate": "Datum hodnocení",
+      "signDate": "Datum podpisu",
+      "studentRanking": "Pořadí ve třídě",
+      "signPerson": "Podespal",
+      "notSigned": "Nepodepsáno",
+      "markSigned": "Hodnocení podepsáno",
+      "lesson": "Vyučovací hodina",
+      "timePeriod": "Období",
+      "schoolYear": "Školní rok"
+    },
+    "all": "Vše",
+    "unsigned": "Nepodepsané",
+    "filter": "Filtr",
+    "signAll": "Podepsat všechny",
+    "confirmSigning": "Podepsat {} hodnocení?",
+    "confirmSigningContent": "Tuto akci nelze vzít zpět. Podepsáním dáváte vyučujícímu najevo, že jste hodnocení viděli a souhlasíte s ním.",
+    "signed": "Podepsáno",
+    "marksSignedBodyOneSubject": "{} hodnocení z 1 předmětu",
+    "marksSignedBody": "{} hodnocení ze {} předmětů",
+    "everythingSigned": "Skvělé, všechna hodnocení jsou podepsaná."
+  },
+  "messages": {
+    "module_name": "Zprávy",
+    "compose": "Napsat",
+    "noMessages": "V této kategorii nyní nemáte žádné zprávy",
+    "folders": "Složky",
+    "deleteMessage": "Smazat zprávu?",
+    "deleteMessageBody": "Přejete si tuto zprávu opravdu smazat? Tuto akci nelze vrátit zpět.",
+    "reply": "Odpovědět",
+    "forward": "Přeposlat",
+    "more": "další",
+    "moreThan4": "dalších",
+    "new": "Nová zpráva",
+    "recipients": "Komu",
+    "subject": "Předmět",
+    "addRecipient": "Přidat příjemce",
+    "messageText": "Text zprávy...",
+    "selectAll": "Vybrat vše",
+    "allSelected": "Vybráno vše",
+    "dialogs": {
+      "noTextTitle": "Zpráva nemá žádný text",
+      "noTextBody": "Vaše zpráva neobsahuje žádný text, přejete si ji přesto odeslat?",
+      "tooManyRecipientsTitle": "Velké množstí příjemců",
+      "tooManyRecipientsBody": "Chystáte se poslat zprávu celkem {} příjemcům. Opravdu ji chcete odeslat?",
+      "missingEmailsTitle": "Chybějící e-mailové adresy",
+      "missingEmailsBody": "Někteří adresáti nemají vyplněný e-mail a zpráva jim tak bude doručena pouze prostřednictvím “Zprávy v aplikaci”.",
+      "sending": "Odesílá se...",
+      "sent": "Odesláno",
+      "saving": "Ukládá se...",
+      "saved": "Zpráva uložena",
+      "saveMessageTitle": "Uložit zprávu?",
+      "saveMessageBody": "Zpráva bude uložena do složky koncepty"
+    },
+    "originalMassage": "Původní zpráva",
+    "from": "Od:",
+    "received": "Přijato:",
+    "contactsHelp": {
+      "group": "Klepnutím na ikonu skupiny ji celou vyberete. Můžete vybrat i více skupin najednou a následně výběr potvrdit  klepnutím na tlačítko “Přidat”.",
+      "navigation": "Pokud chcete vybrat podskupiny nebo konkrétní adresáty v rámci některé ze skupin, klepněte do prostoru jejího názvu (vpravo od ikony).",
+      "endRecipient": "Přidávejte jednotlivé adresáty do výběru klepnutím na jejich ikonu. Výběr použijete klepnutím na  “Přidat”.",
+      "understand": "Rozumím"
+    },
+    "sender": "Odesílatel",
+    "deleteAt": "Smazat dne",
+    "attachmentsDeleted": "Přílohy už byly smazány",
+    "conceptAttachmentsDeleted": "Uložené přílohy již byly smazány",
+    "attachmentsExceededTotalSizeLimit": "Překročena celková povolená velikost příloh {}",
+    "attachmentExceededSizeLimit": "Překročena povolená velikost {}",
+    "form": "Forma",
+    "hasRead": "Přečetlo",
+    "hasVoted": "Hlasovalo",
+    "details": "Detaily",
+    "recipientsOverview": "Přehled příjemců",
+    "isRead": "Přečteno",
+    "useAgain": "Použít znovu",
+    "poll": {
+      "selectedAnswer": "Zvolená odpověď",
+      "options": "Volby",
+      "chooseAnswer": "Vyberte vaši odpověď",
+      "answerSend": "Vaše odpověď byla odeslána",
+      "youSelected": "Vybrali jste odpověď:",
+      "votingAlert": "Po odeslání už volbu nelze změnit. Přejete si pokračovat a vaši odpověď odeslat?"
+    }
+  },
+  "averageMarks": {
+    "module_name": "Hodnocení v předmětu",
+    "sort": {
+      "initial": "Výchozí",
+      "best": "Nejlepší",
+      "worse": "Nejhorší"
+    },
+    "averageFrom": "průměr z {} známek",
+    "verbalEvaluation": "Slovní hodnocení",
+    "emptyMarks": "V {}. pololetí nebyl žák zařazen do výuky, nemá tak přiřazen žádný předmět."
+  },
+  "marks": {
+    "comment": "Komentář",
+    "verbalEvaluation": "Slovní hodnocení",
+    "weight": "váha",
+    "toAverage": "Do průměru",
+    "classAverage": "Průměr třídy",
+    "semester": "{}. pololetí"
+  },
+  "dialogs": {
+    "childSelector": {
+      "title": "Vaše děti"
+    },
+    "unexpectedError": "Omlouváme se, něco se pokazilo. Zkuste prosím akci opakovat později.",
+    "genericError": {
+      "title": "Něco se pokazilo...",
+      "body": "Omlouváme se, ale nedaří se nám spojit se servery Školy Online. Zkontrolujte prosím své připojení k internetu a zkuste to znovu."
+    },
+    "signing": "Podepisuje se...",
+    "signingFailed": "Podpis se nezdařil",
+    "signingFailedContent": "Možná šlo o dočasný problém, zkuste prosím akci opakovat později.",
+    "deletion": {
+      "deleting": "Maže se...",
+      "deleted": "Smazáno"
+    },
+    "attachments": {
+      "takePhoto": "Vyfotit",
+      "photoLibrary": "Galerie",
+      "attachFile": "Přiložit soubor",
+      "recordVideo": "Nahrát video"
+    },
+    "sending": "Odesílá se...",
+    "sent": "Odesláno",
+    "saving": "Ukládá se..."
+  },
+  "behaviours": {
+    "behaviours": "Chování",
+    "classBookNotes": "Poznámky do třídní knihy",
+    "filters": {
+      "all": "Vše",
+      "custom": "Vlastní",
+      "useFilter": "Použít",
+      "filter": "Filtr"
+    },
+    "class": {
+      "myClasses": "Moje třídy",
+      "wholeSchool": "Celá škola",
+      "students": "Žáci"
+    },
+    "sort": {
+      "sort": "Řazení",
+      "newFirst": "Nejdřív nové",
+      "oldFirst": "Nejdřív staré",
+      "studentsFromA": "Žáci od A",
+      "studentsFromZ": "Žáci od Z",
+      "new": "Nové",
+      "old": "Staré",
+      "fromA": "Od A",
+      "fromZ": "Od Z"
+    },
+    "add": "Zadat",
+    "signed": "Podepsáno",
+    "notSigned": "Nepodepsáno",
+    "form": {
+      "lessonUnassigned": "Neurčena",
+      "addBehaviour": "Zadat poznámku",
+      "editBehaviour": "Upravit poznámku",
+      "lesson": "Vyučovací hodina",
+      "kind": "Druh poznámky",
+      "content": "Text poznámky",
+      "saveBehavior": "Uložit poznámku",
+      "behaviorSaved": "Poznámka byla uložena",
+      "behaviorUpdated": "Poznámka byla upravena",
+      "behaviorDeleted": "Poznámka byla smazána",
+      "behaviorDeleting": "Mažu poznámku...",
+      "deleteBehavior": "Smazat poznámku",
+      "deleteBehaviorBody": "Nezapomeňte, že poznámku již mohli vidět rodiče nebo žák. Tuto akci nelze vzít zpět.",
+      "noStudentsToSelect": "Ve třídě nejsou žádní žáci k výběru."
+    },
+    "noBehaviors": "Zatím nemáte zadány žádné poznámky ani jiná výchovná opatření.",
+    "noBehaviorsWithFilter": "Vašemu nastavení filtru neodpovídají  žádná výchovná opatření.",
+    "lesson": "{} hodina"
+  },
+  "homeworks": {
+    "homeworks": "Domácí úkoly",
+    "moduleName": " Úkoly",
+    "emptyHomework": {
+      "active": "Zatím nemáte žádné aktivní domácí úkoly.",
+      "submitted": "Zatím nemáte žádné splněné domácí úkoly.",
+      "afterDeadline": "Nemáte žádné domácí úkoly neodevzdané v termínu.",
+      "canceled": "Nemáte žádné zrušené domácí úkoly."
+    },
+    "submit": "Odevzdat",
+    "submitted": "Odevzdáno",
+    "assigned": "Zadáno",
+    "teacher": "Učitel",
+    "content": "Zadání",
+    "filter": "Filtr",
+    "all": "Všechny",
+    "noSubmission": "neodevzdává se",
+    "term": "Termín",
+    "noHomeworkPerFilter": "Na tento předmět nemáte žádné  domácí úkoly.",
+    "lastTerm": "Poslední termín",
+    "verbalEvaluationAbbr": "Sl",
+    "verbalEvaluation": "slovně",
+    "returnReason": "Důvod vrácení",
+    "closed": "Ukončeno",
+    "closedByTeacher": "Ukončeno vyučujícím"
+  },
+  "aboutPage": {
+    "qr": {
+      "title": "QR kódy ke stažení aplikace",
+      "text": "Tyto kódy usnadní stažení aplikace vašim přátelům – jednoduše jim je ukažte, ať si je vyfotí a otevřou z odkazu obchod na svých telefonech.",
+      "android_title": "Google Play (Android)",
+      "ios_title": "App Store (iOS)"
+    },
+    "official_app_title": "Oficiální aplikace Škola OnLine",
+    "official_app_text": "Právě používáte oficiální aplikaci Škola OnLine. S ní máte rychlý a především bezpečný přístup k často používaným funkcím jako jsou rozvrh, informace o hodnocení, docházce nebo třeba domácích úkolech.\n\nNa pár ťuknutí prstů může komunikovat škola s žáky i rodinou a naopak.\n\nPusťte se do toho.",
+    "web_page_title": "Oficiální stránky webové aplikace",
+    "tech_support": "Zákaznická podpora",
+    "app_version": "Verze aplikace",
+    "license": "Licence",
+    "copiedToClipboard": "Zkopírováno do schránky",
+    "feedback": {
+      "title": "Připomínky k aplikaci",
+      "feedbackField": "Co můžeme zlepšit?",
+      "email": "E-mail (nepovinný)",
+      "dialog": {
+        "thankyouForYourTime": "Děkujeme za váš čas!",
+        "thirdline": "Vašim připomínkám se budeme věnovat."
+      }
+    },
+    "gdpr": {
+      "title": "Zásady ochrany osobních údajů",
+      "moreInfo": "Více informací",
+      "canBeFoundHere": "naleznete zde"
+    }
+  },
+  "appDrawer": {
+    "savedProfiles": "Uložené profily",
+    "groups": {
+      "help": {
+        "title": "Pomoc",
+        "tiles": {
+          "reportBug": "Nahlásit chybu"
+        }
+      },
+      "application": {
+        "title": "Aplikace",
+        "info_title": "Informace o aplikaci",
+        "profiles": "Správa profilů",
+        "signout": "Odhlásit",
+        "signoutDialog": {
+          "title": "Chcete se odhlásit?",
+          "body": "Při dalším přihlášení do tohoto uloženého profilu bude třeba znovu zadat heslo."
+        },
+        "tiles": {
+          "feedback": "Poslat zpětnou vazbu"
+        }
+      }
+    }
+  },
+  "help": {
+    "swipeableListBehavior": "Tažením za kartu poznámky směrem doleva zobrazíte kontextové volby.",
+    "swipeableListMark": "Tažením za kartu známky směrem doleva zobrazíte kontextové volby.",
+    "swipeableListMessage": "Tažením za kartu zprávy směrem doleva zobrazíte kontextové volby.",
+    "understand": "Rozumím"
+  },
+  "onboarding": {
+    "next": "Další",
+    "close": "Zavřít",
+    "again": "Znovu",
+    "slides": {
+      "welcome": {
+        "text1": "Představujeme vám novou, od úplných základů přestavěnou, oficiální mobilní aplikaci školního systému Škola OnLine.\n\nDíky intuitivnímu ovládání a přehlednému designu máte teď v kapse šikovného pomocníka pro správu vašich každodenních školních záležitostí.",
+        "text2": "Do aplikace se přihlásíte pomocí uživatelského jména a hesla, které získáte od správce systému ve vaší škole.\n\nV případě, že jste heslo ztratili, použijte formulář pro Zapomenuté heslo: Připravte si svou e-mailovou adresu a v případě více účtů i uživatelské jméno."
+      },
+      "timetable": {
+        "text1": "Představujeme vám hlavní stránku nové aplikace. Výchozím bodem správy vaší agendy je rozvrh pro daný den. Klepnutím na lístek zobrazíte jeho detail.",
+        "text2": "V horním pásu dnů klepnutím vyberete jiný den v týdnu. Přejetím prstem do strany změníte týden. Potažením pásu směrem dolů rozvinete kalendář.",
+        "text3": "Na spodním okraji je plovoucí nabídka, kterou se přepnete mezi Rozvrhem, Zprávami a také Centrem, odkud spustíte všechny dostupné moduly.",
+        "text4": "Úplně vlevo nahoře najdete tlačítko s vašimi iniciály, kterým zobrazíte uživatelskou nabídku. Ta obsahuje veškeré nastavení aplikace a správu uložených účtů."
+      }
+    }
+  },
+  "timetable": {
+    "moduleName": "Rozvrh",
+    "event": "Událost",
+    "specialEvent": "Akce",
+    "substitution": "Supl",
+    "end": "Konec",
+    "add": "Nové hodnocení",
+    "teacher": "Vyučující",
+    "onlineClass": "Hodina s on-line schůzkou",
+    "students": "Žáci",
+    "cycle": "Cyklus",
+    "hoursTaught": "Odučených hodin",
+    "classTime": "Čas výuky",
+    "teachingInformation": "Informace k výuce",
+    "subject": "Předmět",
+    "noClasses": "Pro tento den nemáte žádnou agendu.",
+    "dateOutOfActualSchoolYear": "Toto datum nepatří do aktuálního školního roku, zvolte prosím jiné.",
+    "information": "Informace",
+    "eventKind": "Druh události",
+    "classesGroups": "Třídy (skupiny)"
+  },
+  "classBook": {
+    "curriculum": "Učivo",
+    "attendance": "Docházka",
+    "group": "Skupina",
+    "room": "Místnost",
+    "wholeClass": "celá třída",
+    "hourOrder": "Pořadové číslo hodiny",
+    "hourContent": "Probrané učivo",
+    "note": "Poznámka",
+    "dialogs": {
+      "saving": "Ukládá se...",
+      "saved": "Třídní kniha uložena"
+    }
+  },
+  "apologies": {
+    "moduleName": "Omluvenky",
+    "noClasses": "Nemáte přiřazenou žádnou třídu. Kontaktujte správce školy.",
+    "actions": {
+      "new": "Nová",
+      "send": "Odeslat omluvenku",
+      "approve": "Omluvit",
+      "reject": "Zamítnout",
+      "editReason": "Upravit důvod",
+      "saveReason": "Uložit důvod"
+    },
+    "detail": {
+      "header": {
+        "apology": "Omluvenka",
+        "details": "Podrobnosti"
+      },
+      "rejectReason": "Důvod zamítnutí",
+      "dateSent": "Odeslána",
+      "apologeticPerson": "Omlouval",
+      "reason": "Důvod",
+      "rejectFieldHint": "Zadejte důvod zamítnutí",
+      "dialogs": {
+        "rejecting": "Zamítá se...",
+        "rejected": "Zamítnutá",
+        "approving": "Omlouvá se...",
+        "approved": "Omluveno"
+      }
+    },
+    "form": {
+      "headerNew": "Nová omluvenka",
+      "headerEdit": "Upravit omluvenku",
+      "pickTime": "Omluvit na",
+      "absenceReason": "Důvod absence",
+      "otherReasonSpecification": "Upřesnění důvodu absence",
+      "additionalInfo": "Další informace",
+      "wholeDay": "Celodenní",
+      "dialog": {
+        "text": "Omluvit na"
+      }
+    },
+    "messages": {
+      "noApologiesFound": "Zatím nemáte žádné omluvenky ke zpracování.",
+      "noApologiesWithFilterFound": "Vašemu nastavení filtru neodpovídají žádné omluvenky."
+    }
+  },
+  "attendance": {
+    "missing": {
+      "leading": "Chybí",
+      "trailing": "z {}"
+    },
+    "copyPrevious": "Zkopírovat předchozí",
+    "reason": "Důvod",
+    "reasonTitle": "Důvod absence",
+    "deleteReason": "Smazat",
+    "customReason": "Vlastní text"
+  },
+  "actions": {
+    "delete": "Smazat",
+    "edit": "Upravit",
+    "choose": "Vybrat",
+    "selectAll": "Vybrat všechny",
+    "cancelSelection": "Zrušit výběr",
+    "cancelAll": "Zrušit všechny",
+    "reload": "Načíst znovu",
+    "cancel": "Zrušit",
+    "resumeApp": "Obnovit aplikaci",
+    "sign": "Podepsat",
+    "search": "Hledat",
+    "download": "stáhnout",
+    "tryAgain": "Zkusit znovu",
+    "cancelFilter": "Zrušit filtr",
+    "resume": "Obnovit",
+    "useDifferentAccount": "Použít jiný účet",
+    "send": "Poslat",
+    "add": "Přidat",
+    "insert": "Vložit",
+    "save": "Uložit",
+    "drop": "Zahodit",
+    "set": "Nastavit",
+    "understand": "Rozumím",
+    "understandAndClose": "Rozumím a zavřít",
+    "back": "Zpět"
+  },
+  "entities": {
+    "class": "Třída",
+    "student": "Žák",
+    "teacher": "Učitel",
+    "lesson": "Vyučovací hodina",
+    "attachments": "Přílohy"
+  },
+  "forms": {
+    "plusMore": "+{} další",
+    "dateFrom": "Datum od",
+    "dateTo": "Datum do",
+    "date": "Datum",
+    "hourFrom": "Hodina od",
+    "hourTo": "Hodina do",
+    "optional": "volitelné"
+  },
+  "date": {
+    "tomorrow": "zítra",
+    "yesterday": "včera",
+    "today": "dnes",
+    "forTomorrow": "Na zítra",
+    "tillEndOfWeek": "Do konce týdne",
+    "nextWeek": "Příští týden a dále",
+    "until": "do",
+    "from": "od",
+    "beforeMin": "Před {} min",
+    "rightNow": "Právě teď",
+    "day": "Den",
+    "hour": "Hodina",
+    "date": "Datum"
+  },
+  "generic": {
+    "filter": "Filtr",
+    "errors": {
+      "general": "Omlouváme se, něco se pokazilo.",
+      "connectionIssue": "Omlouváme se, ale nedaří se nám spojit se servery Školy Online. Zkontroluje připojení a opakujte akci znovu.",
+      "403": "Nemáte oprávnění k provedení této akce.",
+      "unexpected": "Jejda, něco se pokazilo!\nPracujeme na opravě...",
+      "validations": {
+        "emailFormat": "Zadaný e-mail není ve správném formátu"
+      },
+      "attachments": {
+        "downloadError": "Soubor se nepodařil stáhnout.",
+        "storageError": "Při ukládání souboru nastala chyba.",
+        "unknownFileType": "Aplikace nedokáže zobrazit tento typ souboru.",
+        "permissionsError": "Aplikace nemá práva pro stažení souboru. Zkontrolujte nastavení oprávnění aplikace."
+      }
+    },
+    "inDevelopment": "Modul pro vás připravujeme.",
+    "backButtonSemanticLabel": "Tlačítko zpět",
+    "connectionIssueAlert": {
+      "noConnection": "Ztráta připojení!",
+      "connectionRestored": "Připojení obnoveno"
+    }
+  },
+  "markForm": {
+    "properties": "Vlastnosti",
+    "students": "Žáci",
+    "evaluationKind": "Druh hodnocení",
+    "evaluationMethod": "Způsob hodnocení",
+    "allowVerbalEvaluation": "Povolit slovní hodnocení",
+    "theme": "Téma",
+    "comment": "Komentář",
+    "includeIn": "Započítat do",
+    "weight": "váha",
+    "saveMark": "Uložit hodnocení",
+    "evaluationSelection": "Výběr hodnocení",
+    "mark": "známka",
+    "bulk": "Hromadné",
+    "bulkAction": "Hromadná akce",
+    "evaluated": "hodnoceno",
+    "from": "z",
+    "savingEvaluation": "Ukládá se hodnocení...",
+    "evaluationSaved": "Hodnocení uloženo",
+    "points": "body",
+    "percents": "procenta",
+    "maxPoints": "Maximální počet bodů",
+    "restrictToClass": "Omezit na třídu",
+    "maxPointsAlert": "Maximálně {} bodů",
+    "minPointsAlert": "Minimálně 0 bodů",
+    "maxPercentsAlert": "Maximálně 100 procent",
+    "minPercentsAlert": "Minimálně 0 procent",
+    "setBulkPoints": "Zadat hromadně body",
+    "setBulkPercents": "Zadat hromadně procenta",
+    "setPointsToStudents": {
+      "one": "Zapsat body {} žáku",
+      "other": "Zapsat body {} žákům"
+    },
+    "setPercentsToStudents": {
+      "one": "Zapsat procenta {} žáku",
+      "other": "Zapsat procenta {} žákům"
+    },
+    "included": "Zahrnutí",
+    "setEvaluationToAll": "Nastavit hodnocení všem?",
+    "evaluationSettingAlert": "Tato akce nevratně přepíše případné dříve zadané hodnoty u všech {} žáků.",
+    "setting": "Nastavuje se...",
+    "isSet": "Nastaveno",
+    "forNStudents": "pro {} žáky",
+    "wrongFormat": "Nesprávný formát",
+    "notEvaluated": "Nehodnocen [-]",
+    "notSpecified": "Nezadáno",
+    "allClasses": "Všechny",
+    "verbalEvaluation": "Slovní hodnocení",
+    "maxPointsError": "Musí být celé kladné číslo (max 3 znaky)"
+  },
+  "minVersion": {
+    "updateMessage": "Aplikace vyžaduje přechod na nejnovější verzi.\nBez aktualizace nebudete moct aplikaci používat.",
+    "updateTitle": "Nová aktualizace",
+    "goToStore": "Přejít do {}",
+    "checkingVersion": "Kontrola aktuální verze aplikace..."
+  },
+  "enums": {
+    "TypeOfBehavior": {
+      "classBookNote": "Poznámka do třídní knihy",
+      "educationalMeasure": "Výchovné opatření",
+      "markBehaviorEvaluations": "Hodnocení chování",
+      "percentageBehaviorEvaluations": "Hodnocení chování procentem"
+    },
+    "StudentBehaviorRecordFilter": {
+      "all": "Všechny",
+      "unsigned": "Nepodepsané",
+      "notesClassBook": "Poznámka do třídní knihy",
+      "behaviorEvaluations": "Hodnocení chování",
+      "positiveEducationalMeasures": "Výchovné opatření - pozitivní",
+      "negativeEducationalMeasures": "Výchovné opatření - negativní"
+    },
+    "HomeworkFilterState": {
+      "active": "Aktivní",
+      "submitted": "Odevzdané",
+      "afterDeadline": "Po termínu",
+      "canceled": "Zrušené"
+    },
+    "StateHomework": {
+      "awaitingElaboration": "čeká na vypracování",
+      "waitingForEvaluation": "čeká na hodnocení",
+      "fulfilled": "splněno",
+      "notFulfilled": "nesplněno",
+      "evaluated": "ohodnoceno",
+      "afterTheDeadline": "po termínu",
+      "canceled": "zrušeno",
+      "returned": "vráceno",
+      "done": "hotovo"
+    },
+    "MessagesType": {
+      "received": "Doručené",
+      "unread": "Nepřečtené",
+      "sent": "Odeslané",
+      "concepts": "Koncepty"
+    },
+    "SendingType": {
+      "systemMessage": "Zpráva v aplikaci",
+      "email": "E-mail",
+      "systemMessageWithVote": "Anketa",
+      "sms": "SMS"
+    },
+    "UserType": {
+      "student": "Žák",
+      "parent": "Zákonný zástupce",
+      "employee": "Zaměstnanec",
+      "system": "Administrátor"
+    },
+    "TimetableContextMenuItem": {
+      "classBook": "Zápis do třídní knihy",
+      "newMark": "Nové hodnocení",
+      "noteClassBook": "Poznámka do třídní knihy",
+      "teachingInformation": "Informace o výuce",
+      "newMessage": "Nová zpráva"
+    },
+    "ApologyState": {
+      "all": "Všechny",
+      "unprocessed": {
+        "one": "Nezpracovaná",
+        "other": "Nezpracované"
+      },
+      "rejected": {
+        "one": "Zamítnutá",
+        "other": "Zamítnutné"
+      },
+      "accepted": {
+        "one": "Vyřízená",
+        "other": "Vyřízené"
+      }
+    },
+    "ApologyAbsenceTime": {
+      "today": "Dnes",
+      "tomorrow": "Zítra",
+      "different": "Jiné období"
+    },
+    "AttendanceType": {
+      "present": "Přítomen",
+      "absent": "Nepřítomen",
+      "excused": "Omluven",
+      "doesntCount": "Nezapočítává",
+      "doesntApologize": "Neomlouvá",
+      "notTaught": "Nevyučuje se"
+    },
+    "EvaluationMethod": {
+      "points": "Body",
+      "percent": "Procenta",
+      "marks": "Známky"
+    },
+    "StudentsFilterType": {
+      "all": "Všichni",
+      "includedToEvaluation": "Zahrnutí do hodnocení",
+      "unevaluated": "Nehodnocení"
+    },
+    "BulkAction": {
+      "includeIntoEvaluation": "Zahrnout do hodnocení",
+      "removeFromEvaluation": "Odebrat z hodnocení",
+      "setEvaluation": {
+        "points": "Nastavit stejné body",
+        "percent": "Nastavit stejná procenta",
+        "marks": "Nastavit stejnou známku"
+      }
+    }
+  }
+}

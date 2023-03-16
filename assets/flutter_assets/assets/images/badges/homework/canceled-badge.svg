@@ -1,0 +1,16 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="paint0_linear_3623_41708" x1="51.2857" y1="51.8571" x2="34.7143" y2="30.4286" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#C2C7C9"/>
+            <stop offset="1" stop-color="white"/>
+        </linearGradient>
+    </defs>
+    <path d="M13 30V49C13 50.1046 13.8954 51 15 51H30" stroke="#566971" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 32H25" stroke="#566971" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 38H27" stroke="#566971" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 44H22" stroke="#566971" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 29L26.2794 10.7206C26.6752 10.3248 27.3186 10.3309 27.7069 10.734L40 23.5" stroke="#566971" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="43" cy="41" r="12" fill="url(#paint0_linear_3623_41708)"/>
+<circle cx="43" cy="41" r="12" stroke="#566971" stroke-width="2"/>
+<path d="M46 42C46.5523 42 47 41.5523 47 41C47 40.4477 46.5523 40 46 40V42ZM40 40C39.4477 40 39 40.4477 39 41C39 41.5523 39.4477 42 40 42V40ZM46 40H40V42H46V40Z" fill="#566971"/>
+</svg>
