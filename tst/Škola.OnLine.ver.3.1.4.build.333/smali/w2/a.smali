@@ -1,0 +1,137 @@
+.class public final Lw2/a;
+.super Lw2/b;
+.source ""
+
+
+# static fields
+.field public static final CREATOR:Landroid/os/Parcelable$Creator;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroid/os/Parcelable$Creator<",
+            "Lw2/a;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# instance fields
+.field public final n:J
+
+.field public final o:J
+
+.field public final p:[B
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lw2/a$a;
+
+    invoke-direct {v0}, Lw2/a$a;-><init>()V
+
+    sput-object v0, Lw2/a;->CREATOR:Landroid/os/Parcelable$Creator;
+
+    return-void
+.end method
+
+.method private constructor <init>(J[BJ)V
+    .locals 0
+
+    invoke-direct {p0}, Lw2/b;-><init>()V
+
+    iput-wide p4, p0, Lw2/a;->n:J
+
+    iput-wide p1, p0, Lw2/a;->o:J
+
+    iput-object p3, p0, Lw2/a;->p:[B
+
+    return-void
+.end method
+
+.method private constructor <init>(Landroid/os/Parcel;)V
+    .locals 2
+
+    invoke-direct {p0}, Lw2/b;-><init>()V
+
+    invoke-virtual {p1}, Landroid/os/Parcel;->readLong()J
+
+    move-result-wide v0
+
+    iput-wide v0, p0, Lw2/a;->n:J
+
+    invoke-virtual {p1}, Landroid/os/Parcel;->readLong()J
+
+    move-result-wide v0
+
+    iput-wide v0, p0, Lw2/a;->o:J
+
+    invoke-virtual {p1}, Landroid/os/Parcel;->createByteArray()[B
+
+    move-result-object p1
+
+    invoke-static {p1}, Lu3/n0;->j(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, [B
+
+    iput-object p1, p0, Lw2/a;->p:[B
+
+    return-void
+.end method
+
+.method synthetic constructor <init>(Landroid/os/Parcel;Lw2/a$a;)V
+    .locals 0
+
+    invoke-direct {p0, p1}, Lw2/a;-><init>(Landroid/os/Parcel;)V
+
+    return-void
+.end method
+
+.method static a(Lu3/a0;IJ)Lw2/a;
+    .locals 6
+
+    invoke-virtual {p0}, Lu3/a0;->G()J
+
+    move-result-wide v1
+
+    add-int/lit8 p1, p1, -0x4
+
+    new-array v3, p1, [B
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p0, v3, v0, p1}, Lu3/a0;->j([BII)V
+
+    new-instance p0, Lw2/a;
+
+    move-object v0, p0
+
+    move-wide v4, p2
+
+    invoke-direct/range {v0 .. v5}, Lw2/a;-><init>(J[BJ)V
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public writeToParcel(Landroid/os/Parcel;I)V
+    .locals 2
+
+    iget-wide v0, p0, Lw2/a;->n:J
+
+    invoke-virtual {p1, v0, v1}, Landroid/os/Parcel;->writeLong(J)V
+
+    iget-wide v0, p0, Lw2/a;->o:J
+
+    invoke-virtual {p1, v0, v1}, Landroid/os/Parcel;->writeLong(J)V
+
+    iget-object p2, p0, Lw2/a;->p:[B
+
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeByteArray([B)V
+
+    return-void
+.end method
